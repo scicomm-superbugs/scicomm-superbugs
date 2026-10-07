@@ -16,7 +16,7 @@
     </a>
     &nbsp;
     <a href="https://github.com/scicomm-superbugs">
-      <img src="https://raw.githubusercontent.com/scicomm-superbugs/scicomm-superbugs/main/assets/contributions-badge.svg" alt="GitHub Contributions" />
+      <img src="./assets/contributions-badge.svg" alt="GitHub Contributions" />
     </a>
   </p>
 </div>
@@ -63,7 +63,7 @@
 ### 📊 Activity & Engineering Metrics
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/scicomm-superbugs/scicomm-superbugs/main/assets/metrics.svg?v=5" width="100%" alt="GitHub Engineering & Activity Dashboard" />
+  <img src="./assets/metrics.svg" width="100%" alt="GitHub Engineering & Activity Dashboard" />
 </div>
 
 ---
