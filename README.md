@@ -33,3 +33,10 @@
 <div align="center">
   <sub>Built with ❤️ for science and code.</sub>
 </div>
+---
+
+### 📊 GitHub Activity & Stats
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=scicomm-superbugs&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=scicomm-superbugs&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="Top Languages" />
+</div>
