@@ -67,7 +67,8 @@
 
     <!-- Stat Callout -->
     <g transform="translate(20, 56)">
-      <text x="0" y="26" class="stat-number">762+</text><text x="96" y="15" class="stat-label">Total Contributions</text>
+      <text x="0" y="26" class="stat-number">757+</text>
+      <text x="96" y="15" class="stat-label">Total Contributions</text>
       <text x="96" y="29" class="subtitle">Active across 12 Repositories</text>
     </g>
 
@@ -133,7 +134,7 @@
       <rect x="0" y="18" width="180" height="7" rx="3.5" fill="url(#cyanGrad)"/>
 
       <!-- Clean Subtitle Below Bar -->
-      <text x="0" y="37" class="subtitle" font-size="11">Bioinformatics &bull; Microbiome Models &bull; AI Logic</text>
+      <text x="0" y="37" class="subtitle" font-size="11">Bioinformatics &#8226; Microbiome Models &#8226; AI Logic</text>
     </g>
 
     <!-- Language 2: TypeScript -->
@@ -148,7 +149,7 @@
       <rect x="0" y="18" width="166" height="7" rx="3.5" fill="url(#purpleGrad)"/>
 
       <!-- Clean Subtitle Below Bar -->
-      <text x="0" y="37" class="subtitle" font-size="11">React Applications &bull; Cloud Architecture &bull; APIs</text>
+      <text x="0" y="37" class="subtitle" font-size="11">React Applications &#8226; Cloud Architecture &#8226; APIs</text>
     </g>
 
     <!-- Core Stack Badges Box -->
