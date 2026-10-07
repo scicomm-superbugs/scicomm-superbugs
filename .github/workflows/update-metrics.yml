@@ -1,14 +1,14 @@
-name: Update Profile Metrics
+name: Realtime Profile Metrics Updater
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight
+    - cron: '0 */6 * * *' # Automatically runs every 6 hours
   workflow_dispatch:
   push:
     branches: [main]
 
 jobs:
-  metrics:
+  update-metrics:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -21,6 +21,15 @@ jobs:
         with:
           node-version: 20
 
-      - name: Verify Metrics Asset
+      - name: Fetch Live Contributions & Rebuild Badges
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          test -f assets/metrics.svg && echo "Metrics dashboard verified"
+          node .github/scripts/update_metrics.mjs
+
+      - name: Commit and Push if Changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "chore(metrics): auto-update live contribution badges [skip ci]" && git push)
