@@ -13,55 +13,44 @@
       <stop offset="100%" stop-color="#0d1522" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- Shimmering Bar Gradients -->
-    <linearGradient id="shimmerCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+    <!-- Moving Shimmer Beam Gradient -->
+    <linearGradient id="shimmerBeam" x1="-100%" y1="0%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+      <animate attributeName="x1" from="-100%" to="200%" dur="2.8s" repeatCount="indefinite"/>
+      <animate attributeName="x2" from="0%" to="300%" dur="2.8s" repeatCount="indefinite"/>
+    </linearGradient>
+
+    <!-- Bar Gradients -->
+    <linearGradient id="barCyan" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#06b6d4"/>
-      <stop offset="50%" stop-color="#67e8f9">
-        <animate attributeName="stop-color" values="#06b6d4;#67e8f9;#38bdf8;#06b6d4" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#3b82f6"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
     </linearGradient>
 
-    <linearGradient id="shimmerPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="barPurple" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#8b5cf6"/>
-      <stop offset="50%" stop-color="#c084fc">
-        <animate attributeName="stop-color" values="#8b5cf6;#c084fc;#a855f7;#8b5cf6" dur="4s" repeatCount="indefinite"/>
-      </stop>
-      <stop offset="100%" stop-color="#ec4899"/>
+      <stop offset="100%" stop-color="#c084fc"/>
     </linearGradient>
 
-    <linearGradient id="shimmerEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="barEmerald" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#059669"/>
-      <stop offset="50%" stop-color="#34d399"/>
-      <stop offset="100%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
 
-    <linearGradient id="shimmerAmber" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="barAmber" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#d97706"/>
-      <stop offset="50%" stop-color="#fde047"/>
-      <stop offset="100%" stop-color="#f59e0b"/>
+      <stop offset="100%" stop-color="#fbbf24"/>
+    </linearGradient>
+
+    <!-- Radar Sweep Gradient -->
+    <linearGradient id="sweepGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8"/>
     </linearGradient>
   </defs>
 
   <style>
-    @keyframes pulseLive {
-      0% { opacity: 0.5; transform: scale(0.95); }
-      50% { opacity: 1; transform: scale(1.15); filter: drop-shadow(0 0 6px #10b981); }
-      100% { opacity: 0.5; transform: scale(0.95); }
-    }
-    @keyframes sweepRadar {
-      0% { stroke-dashoffset: 0; }
-      100% { stroke-dashoffset: 240; }
-    }
-    @keyframes radarPulse {
-      0% { r: 18; opacity: 0.7; }
-      50% { r: 24; opacity: 0.1; }
-      100% { r: 18; opacity: 0.7; }
-    }
-
-    .live-dot { transform-origin: 686px 13px; animation: pulseLive 2s infinite ease-in-out; }
-    .radar-pulse-ring { transform-origin: center; animation: radarPulse 3s infinite ease-out; }
-
     .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #f8fafc; letter-spacing: 0.3px; }
     .header-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #64748b; font-weight: 500; }
     .stat-hero { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 32px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
@@ -79,13 +68,26 @@
 
   <!-- Top Bar -->
   <g transform="translate(26, 18)">
-    <circle cx="6" cy="12" r="4" fill="#38bdf8"/>
+    <!-- Pulsing Cyan Dot -->
+    <circle cx="6" cy="12" r="4" fill="#38bdf8">
+      <animate attributeName="r" values="3.5;5;3.5" dur="2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.7;1;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
     <text x="18" y="16" class="header-title">Engineering &amp; Activity Dashboard</text>
     <text x="295" y="16" class="header-sub">Realtime metrics synchronized across repositories</text>
 
     <!-- Animated Live Pill -->
     <rect x="674" y="2" width="124" height="22" rx="11" fill="#10b981" fill-opacity="0.12" stroke="#10b981" stroke-opacity="0.3"/>
-    <circle cx="686" cy="13" r="3.5" fill="#10b981" class="live-dot"/>
+    
+    <!-- SMIL Pulsing Beacon -->
+    <circle cx="686" cy="13" r="3.5" fill="#10b981">
+      <animate attributeName="r" values="3.5;5.5;3.5" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="686" cy="13" r="8" fill="none" stroke="#10b981" stroke-width="1" opacity="0.4">
+      <animate attributeName="r" values="4;11;4" dur="1.8s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.6;0;0.6" dur="1.8s" repeatCount="indefinite"/>
+    </circle>
     <text x="696" y="16.5" class="badge-live">LIVE METRICS</text>
   </g>
 
@@ -99,7 +101,8 @@
 
     <!-- Top Left: Hero Stat -->
     <g transform="translate(20, 56)">
-      <text x="0" y="28" class="stat-hero">772+</text><text x="96" y="15" class="stat-label">Total Contributions</text>
+      <text x="0" y="28" class="stat-hero">757+</text>
+      <text x="96" y="15" class="stat-caption">Total Contributions</text>
       <text x="96" y="30" class="header-sub">Active across 12 Repositories</text>
     </g>
 
@@ -113,17 +116,28 @@
       <line x1="50" y1="8" x2="50" y2="92" stroke="#1e293b" stroke-width="1"/>
       <line x1="8" y1="50" x2="92" y2="50" stroke="#1e293b" stroke-width="1"/>
 
-      <!-- Diamond Polygon -->
-      <polygon points="50,24 78,50 50,78 16,50" fill="#06b6d4" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.8"/>
+      <!-- Diamond Polygon with Live Breathing Glow -->
+      <polygon points="50,24 78,50 50,78 16,50" fill="#06b6d4" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.8">
+        <animate attributeName="fill-opacity" values="0.2;0.45;0.2" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="stroke-width" values="1.6;2.4;1.6" dur="3s" repeatCount="indefinite"/>
+      </polygon>
       
-      <!-- Pulsing Node Center -->
+      <!-- SMIL Continuous Rotating Radar Sweep Line -->
+      <line x1="50" y1="50" x2="50" y2="12" stroke="url(#sweepGrad)" stroke-width="2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="4s" repeatCount="indefinite"/>
+      </line>
+
+      <!-- Pulsing Radar Center & Concentric Rings -->
       <circle cx="50" cy="50" r="4" fill="#38bdf8"/>
-      <circle cx="50" cy="50" r="18" fill="none" stroke="#38bdf8" stroke-width="1.2" class="radar-pulse-ring"/>
+      <circle cx="50" cy="50" r="14" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6">
+        <animate attributeName="r" values="10;34;10" dur="3s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.8;0.05;0.8" dur="3s" repeatCount="indefinite"/>
+      </circle>
 
       <!-- Quadrant Markers -->
-      <circle cx="50" cy="24" r="3" fill="#f59e0b"/> <!-- Review -->
-      <circle cx="78" cy="50" r="3" fill="#10b981"/> <!-- Issues -->
-      <circle cx="50" cy="78" r="3" fill="#8b5cf6"/> <!-- PRs -->
+      <circle cx="50" cy="24" r="3.5" fill="#f59e0b"/> <!-- Review -->
+      <circle cx="78" cy="50" r="3.5" fill="#10b981"/> <!-- Issues -->
+      <circle cx="50" cy="78" r="3.5" fill="#8b5cf6"/> <!-- PRs -->
       <circle cx="16" cy="50" r="3.5" fill="#3b82f6"/> <!-- Commits -->
 
       <!-- Small Labels -->
@@ -137,13 +151,15 @@
     <g transform="translate(20, 160)">
       <rect x="0" y="0" width="346" height="10" rx="5" fill="#1e293b"/>
       <!-- Commits: 69% = 239px -->
-      <rect x="0" y="0" width="239" height="10" rx="5" fill="url(#shimmerCyan)"/>
+      <rect x="0" y="0" width="239" height="10" rx="5" fill="url(#barCyan)"/>
       <!-- Issues: 11% = 38px -->
-      <rect x="241" y="0" width="38" height="10" fill="url(#shimmerEmerald)"/>
+      <rect x="241" y="0" width="38" height="10" fill="url(#barEmerald)"/>
       <!-- PRs: 11% = 38px -->
-      <rect x="281" y="0" width="38" height="10" fill="url(#shimmerPurple)"/>
+      <rect x="281" y="0" width="38" height="10" fill="url(#barPurple)"/>
       <!-- Reviews: 9% = 25px -->
-      <rect x="321" y="0" width="25" height="10" rx="5" fill="url(#shimmerAmber)"/>
+      <rect x="321" y="0" width="25" height="10" rx="5" fill="url(#barAmber)"/>
+      <!-- Moving Shimmer Beam Overlay -->
+      <rect x="0" y="0" width="346" height="10" rx="5" fill="url(#shimmerBeam)"/>
     </g>
 
     <!-- Metrics Grid -->
@@ -182,9 +198,10 @@
       <text x="16" y="11" class="item-name">Python</text>
       <text x="346" y="11" text-anchor="end" class="item-pct" fill="#38bdf8">52.1%</text>
       
-      <!-- Progress Bar -->
+      <!-- Progress Bar + Shimmer -->
       <rect x="0" y="18" width="346" height="7" rx="3.5" fill="#1e293b"/>
-      <rect x="0" y="18" width="180" height="7" rx="3.5" fill="url(#shimmerCyan)"/>
+      <rect x="0" y="18" width="180" height="7" rx="3.5" fill="url(#barCyan)"/>
+      <rect x="0" y="18" width="180" height="7" rx="3.5" fill="url(#shimmerBeam)"/>
 
       <text x="0" y="37" class="muted-text" font-size="11">Bioinformatics &#8226; Microbiome Models &#8226; AI Logic</text>
     </g>
@@ -195,9 +212,10 @@
       <text x="16" y="11" class="item-name">TypeScript</text>
       <text x="346" y="11" text-anchor="end" class="item-pct" fill="#818cf8">47.9%</text>
       
-      <!-- Progress Bar -->
+      <!-- Progress Bar + Shimmer -->
       <rect x="0" y="18" width="346" height="7" rx="3.5" fill="#1e293b"/>
-      <rect x="0" y="18" width="166" height="7" rx="3.5" fill="url(#shimmerPurple)"/>
+      <rect x="0" y="18" width="166" height="7" rx="3.5" fill="url(#barPurple)"/>
+      <rect x="0" y="18" width="166" height="7" rx="3.5" fill="url(#shimmerBeam)"/>
 
       <text x="0" y="37" class="muted-text" font-size="11">React Applications &#8226; Cloud Architecture &#8226; APIs</text>
     </g>
