@@ -1,16 +1,35 @@
-## Hi there 👋
+# Hi there, I'm Abdullah Amr Maged 👋
 
-<!--
-**scicomm-superbugs/scicomm-superbugs** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+<div align="center">
+  <h3>Biotechnologist • Science Communicator • Software Developer</h3>
+  <p>Alamein International University (AIU) • Superbugs Lead</p>
+</div>
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🧬 About Me
+- 🔬 Passionate about **Biotechnology**, **Science Communication**, and **Computational Chemistry**.
+- 💻 Building modern web applications, laboratory tools, and academic portals using **React**, **TypeScript**, **Python**, and **Firebase**.
+- 🚀 Founder & Lead at **Superbugs**.
+- 📍 Based in Alexandria / New Alamein, Egypt.
+
+---
+
+### 🛠️ Tech Stack & Skills
+- **Languages:** Python, JavaScript, TypeScript, HTML5, CSS3, SQL
+- **Frameworks & Libraries:** React, Vite, Next.js, Node.js, TailwindCSS, Capacitor
+- **Databases & Cloud:** Firebase, Firestore, SQLite, Google Cloud
+- **Tools & Environments:** Git, GitHub Actions, VS Code, Linux
+
+---
+
+### 📬 Connect With Me
+- 📧 **Email:** [amaged@aiu.edu.eg](mailto:amaged@aiu.edu.eg)
+- 💼 **LinkedIn:** [abdullah-amr871](https://linkedin.com/in/abdullah-amr871)
+- 🌐 **Facebook:** [abdullah.amr871](https://facebook.com/abdullah.amr871)
+- 📸 **Instagram:** [@abdullah_amr871](https://instagram.com/abdullah_amr871)
+
+---
+<div align="center">
+  <sub>Built with ❤️ for science and code.</sub>
+</div>
