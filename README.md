@@ -57,11 +57,10 @@
 
 ---
 
-### 📊 GitHub Activity & Metrics
+### 📊 Activity & Engineering Metrics
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=scicomm-superbugs&theme=tokyonight&hide_border=true" height="150" alt="GitHub Streak" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=scicomm-superbugs&layout=compact&theme=tokyonight&hide_border=true&v=2" height="150" alt="Top Languages" />
+  <img src="https://raw.githubusercontent.com/scicomm-superbugs/scicomm-superbugs/main/assets/metrics.svg" width="100%" alt="GitHub Engineering & Activity Dashboard" />
 </div>
 
 ---
