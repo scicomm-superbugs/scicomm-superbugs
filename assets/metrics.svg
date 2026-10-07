@@ -134,7 +134,7 @@
       <rect x="0" y="18" width="180" height="7" rx="3.5" fill="url(#cyanGrad)"/>
 
       <!-- Clean Subtitle Below Bar -->
-      <text x="0" y="37" class="subtitle" font-size="11">Bioinformatics • Microbiome Models • AI Logic</text>
+      <text x="0" y="37" class="subtitle" font-size="11">Bioinformatics &bull; Microbiome Models &bull; AI Logic</text>
     </g>
 
     <!-- Language 2: TypeScript -->
@@ -149,7 +149,7 @@
       <rect x="0" y="18" width="166" height="7" rx="3.5" fill="url(#purpleGrad)"/>
 
       <!-- Clean Subtitle Below Bar -->
-      <text x="0" y="37" class="subtitle" font-size="11">React Applications • Cloud Architecture • APIs</text>
+      <text x="0" y="37" class="subtitle" font-size="11">React Applications &bull; Cloud Architecture &bull; APIs</text>
     </g>
 
     <!-- Core Stack Badges Box -->
