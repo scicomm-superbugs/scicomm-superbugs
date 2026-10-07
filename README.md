@@ -43,9 +43,6 @@
     - 🔬 **Lab Inventory & Equipment Management Platform**.
     - 📊 **Faculty Analytics Dashboards** tracking student academic competencies.
 
-- 🤖 **Outlier (Oakland, California, USA)** *(Jan 2024 – Sep 2024)*:
-  - **AI Molecular Biology Expert Trainer (Freelance):** Evaluated and refined LLM-generated scientific reasoning, protocol adherence, and experimental design.
-
 ---
 
 ### 🛠️ Skills & Technologies
