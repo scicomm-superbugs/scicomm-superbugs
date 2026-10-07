@@ -16,7 +16,7 @@
     </a>
     &nbsp;
     <a href="https://github.com/scicomm-superbugs">
-      <img src="https://img.shields.io/badge/GitHub-746%2B%20Contributions-4f46e5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contributions" />
+      <img src="https://raw.githubusercontent.com/scicomm-superbugs/scicomm-superbugs/main/assets/contributions-badge.svg" alt="GitHub Contributions" />
     </a>
   </p>
 </div>
