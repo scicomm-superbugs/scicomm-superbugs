@@ -67,8 +67,7 @@
 
     <!-- Stat Callout -->
     <g transform="translate(20, 56)">
-      <text x="0" y="26" class="stat-number">757+</text>
-      <text x="96" y="15" class="stat-label">Total Contributions</text>
+      <text x="0" y="26" class="stat-number">762+</text><text x="96" y="15" class="stat-label">Total Contributions</text>
       <text x="96" y="29" class="subtitle">Active across 12 Repositories</text>
     </g>
 
