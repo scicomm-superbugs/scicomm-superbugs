@@ -101,7 +101,7 @@
 
     <!-- Top Left: Hero Stat -->
     <g transform="translate(20, 56)">
-      <text x="0" y="28" class="stat-hero">775+</text><text x="96" y="15" class="stat-label">Total Contributions</text>
+      <text x="0" y="28" class="stat-hero">776+</text><text x="96" y="15" class="stat-label">Total Contributions</text>
       <text x="96" y="30" class="header-sub">Active across 12 Repositories</text>
     </g>
 
