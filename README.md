@@ -63,7 +63,7 @@
 ### 📊 Activity & Engineering Metrics
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/scicomm-superbugs/scicomm-superbugs/main/assets/metrics.svg" width="100%" alt="GitHub Engineering & Activity Dashboard" />
+  <img src="https://raw.githubusercontent.com/scicomm-superbugs/scicomm-superbugs/main/assets/metrics.svg?v=3" width="100%" alt="GitHub Engineering & Activity Dashboard" />
 </div>
 
 ---
