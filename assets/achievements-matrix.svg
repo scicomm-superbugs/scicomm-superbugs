@@ -1,0 +1,1351 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 1540" width="100%" height="1540">
+  <defs>
+    <linearGradient id="bgGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="35%" stop-color="#818cf8" />
+      <stop offset="70%" stop-color="#c084fc" />
+      <stop offset="100%" stop-color="#34d399" />
+    </linearGradient>
+    <filter id="cardShadow" x="-5%" y="-5%" width="110%" height="115%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3" />
+    </filter>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect x="0" y="0" width="920" height="1540" rx="14" fill="url(#bgGrad)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Master Header Banner -->
+  <g transform="translate(26, 22)">
+    <rect x="0" y="0" width="868" height="106" rx="10" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    
+    <!-- Title & Icon -->
+    <text x="20" y="32" font-size="20">🏆</text>
+    <text x="50" y="32" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="16" font-weight="800" letter-spacing="0.5">DEV ACHIEVEMENTS &amp; TROPHY MATRIX</text>
+    
+    <!-- Rank Pill -->
+    <g transform="translate(708, 16)">
+      <rect x="0" y="0" width="144" height="24" rx="12" fill="#a855f722" stroke="#a855f7" stroke-width="1.2" />
+      <text x="72" y="16.5" fill="#d8b4fe" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="800" text-anchor="middle" letter-spacing="0.5">👑 GRANDMASTER RANK</text>
+    </g>
+
+    <!-- Subtitle stats -->
+    <text x="50" y="52" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="500">
+      52 OF 52 ACHIEVEMENTS COMPLETED &#8226; 100% UNLOCKED &#8226; 757+ GITHUB CONTRIBUTIONS
+    </text>
+
+    <!-- Progress Bar -->
+    <rect x="20" y="66" width="828" height="8" rx="4" fill="#21262d" />
+    <rect x="20" y="66" width="828" height="8" rx="4" fill="url(#barGrad)" />
+
+    <!-- Badges Breakdown Tags -->
+    <g transform="translate(20, 84)">
+      <text x="0" y="11" fill="#c084fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="9.5" font-weight="700">&#9679; 6 MYTHIC</text>
+      <text x="90" y="11" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="9.5" font-weight="700">&#9679; 14 DIAMOND</text>
+      <text x="195" y="11" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="9.5" font-weight="700">&#9679; 22 GOLD</text>
+      <text x="275" y="11" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="9.5" font-weight="700">&#9679; 10 SILVER</text>
+      <text x="828" y="11" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="9.5" font-weight="700" text-anchor="end">&#10003; 100% VERIFIED ON GITHUB</text>
+    </g>
+  </g>
+
+  <!-- Sections and Cards -->
+  
+      <g transform="translate(26, 150)">
+        <rect x="0" y="0" width="868" height="32" rx="6" fill="#38bdf812" stroke="#38bdf833" stroke-width="1" />
+        <circle cx="16" cy="16" r="4" fill="#38bdf8" />
+        <text x="28" y="20.5" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">🐙 GIT MASTERY &amp; OPEN SOURCE CORE</text>
+        <text x="852" y="20.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" text-anchor="end">10 UNLOCKED</text>
+      </g>
+    
+
+        <g transform="translate(26, 190)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🦈</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Pull Shark II</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">50+ Merged Pull Requests</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 190)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🤹</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">YOLO Master</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Merged direct to production</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 190)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🤠</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Quickdraw</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Closed issue/PR &lt; 5 mins</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 190)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">👯</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Pair Partner</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Co-authored collaborative code</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 262)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧠</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Galaxy Brain</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Accepted answers in discussions</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 262)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🌿</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Git Flow Pro</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Semantic branches &amp; releases</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 262)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">⚛️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Atomic Commits</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Clean Conventional Commits</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 262)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧹</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Clean Diff</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Zero warnings &amp; pristine diffs</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 334)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🎋</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Conflict Slayer</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Flawless multi-branch rebasing</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 334)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">📈</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Titan (750+)</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">750+ annual contributions</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+      <g transform="translate(26, 422)">
+        <rect x="0" y="0" width="868" height="32" rx="6" fill="#10b98112" stroke="#10b98133" stroke-width="1" />
+        <circle cx="16" cy="16" r="4" fill="#10b981" />
+        <text x="28" y="20.5" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">🧬 BIOTECHNOLOGY &amp; COMPUTATIONAL BIOLOGY</text>
+        <text x="852" y="20.5" fill="#10b981" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" text-anchor="end">10 UNLOCKED</text>
+      </g>
+    
+
+        <g transform="translate(26, 462)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧬</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">BioInformatics Ace</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Genomic pipelines &amp; algorithms</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 462)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧪</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Molecular Modeler</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">3D macromolecular structures</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 462)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🔬</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">DNA Sequencer</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Sequencing &amp; genetic alignment</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 462)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧫</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Wet-Lab Veteran</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">PCR, Gel, ELISA &amp; Cell Culture</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 534)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">⚙️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Lab Automation</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Academic inventory software</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 534)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🦠</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Superbugs Founder</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">AMR scientific initiative lead</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 534)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">📐</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Primer Designer</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Oligonucleotide Tm optimization</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 534)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">📊</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">FASTQ Wrangler</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">High-throughput NGS cleaning</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 606)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🏥</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Clinical Tracker</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Field training telemetry suite</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 606)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧫</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Synthetic Bio</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Recombinant genetic circuits</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+      <g transform="translate(26, 694)">
+        <rect x="0" y="0" width="868" height="32" rx="6" fill="#8b5cf612" stroke="#8b5cf633" stroke-width="1" />
+        <circle cx="16" cy="16" r="4" fill="#8b5cf6" />
+        <text x="28" y="20.5" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">🤖 AI &amp; AGENTIC SYSTEMS ARCHITECTURE</text>
+        <text x="852" y="20.5" fill="#8b5cf6" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" text-anchor="end">10 UNLOCKED</text>
+      </g>
+    
+
+        <g transform="translate(26, 734)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🔄</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Agentic Loop</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Autonomous tool-calling agents</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 734)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🧠</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Context Architect</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Long-context retrieval graphs</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 734)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">⚡</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Vibe Coder</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Flow-state AI prototyping</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 734)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">✍️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Prompt Artisan</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Few-shot precision engineering</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 806)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🛠️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Test Harness</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Benchmark evals &amp; assertions</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 806)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">📚</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">RAG Builder</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Vector semantic retrieval</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 806)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🪙</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Token Optimizer</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Low-latency context pruning</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 806)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">⛓️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Chain-of-Thought</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Decomposed multi-step logic</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 878)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">👁️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Multimodal Vision</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Vision-language OCR parsing</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 878)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🤖</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">AI Pair Maestro</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Autonomous fullstack delivery</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+      <g transform="translate(26, 966)">
+        <rect x="0" y="0" width="868" height="32" rx="6" fill="#f59e0b12" stroke="#f59e0b33" stroke-width="1" />
+        <circle cx="16" cy="16" r="4" fill="#f59e0b" />
+        <text x="28" y="20.5" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">⚡ FULL-STACK &amp; SYSTEMS ENGINEERING</text>
+        <text x="852" y="20.5" fill="#f59e0b" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" text-anchor="end">10 UNLOCKED</text>
+      </g>
+    
+
+        <g transform="translate(26, 1006)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🔷</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">TypeScript Titan</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Strict type-safe architectures</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 1006)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">⚛️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">React 19 Pioneer</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Server Actions &amp; Modern Hooks</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 1006)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🚀</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Zero-Downtime</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Automated CI/CD pipelines</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 1006)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🌐</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">REST API Master</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Resilient rate-limited APIs</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 1078)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🎛️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">State Maestro</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Predictable uni-directional flow</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 1078)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🎨</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Responsive Stylist</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Pixel-perfect mobile UI/UX</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 1078)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">⚡</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Vite Turbocharger</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Sub-second HMR bundlers</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 1078)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🗄️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">SQL &amp; Schema Pro</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Relational queries &amp; indices</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 1150)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🔥</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Firebase Native</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Real-time sync &amp; serverless</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 1150)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🏛️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Clean Arch Purist</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Decoupled domain services</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+      <g transform="translate(26, 1238)">
+        <rect x="0" y="0" width="868" height="32" rx="6" fill="#ec489912" stroke="#ec489933" stroke-width="1" />
+        <circle cx="16" cy="16" r="4" fill="#ec4899" />
+        <text x="28" y="20.5" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="12" font-weight="700" letter-spacing="0.5">🌟 LEADERSHIP, COMMUNITY &amp; OPEN SOURCE</text>
+        <text x="852" y="20.5" fill="#ec4899" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="10" font-weight="600" text-anchor="end">12 UNLOCKED</text>
+      </g>
+    
+
+        <g transform="translate(26, 1278)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">📢</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">SciComm Lead</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">General Coordinator at AIU</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 1278)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🎓</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Teaching Assistant</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Mentoring university students</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 1278)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🔍</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Reviewer Elite</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">67+ PR code reviews approved</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 1278)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🐛</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Bug Hunter</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">80+ issues triaged &amp; solved</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 1350)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🤝</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Open Source Patron</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Public academic codebases</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 1350)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🔄</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">CI Integrator</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Automated workflow testing</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 1350)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🛡️</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Zero-Bug Zone</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">100% green build status</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 1350)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#fbbf2415" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">💡</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Community Mentor</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#fbbf2420" stroke="#fbbf2450" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#fbbf24" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">GOLD</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Guiding STEM workshops</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(26, 1422)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#94a3b815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🦉</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Night Owl Coder</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#94a3b820" stroke="#94a3b850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#94a3b8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">SILVER</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Late-night code shipping</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(246, 1422)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#38bdf815" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🎯</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Milestone Crusher</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#38bdf820" stroke="#38bdf850" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#38bdf8" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">DIAMOND</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">50+ repo goals completed</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(466, 1422)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">🌐</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Polyglot Dev</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">Python, TS, JS &amp; Bash</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+        <g transform="translate(686, 1422)">
+          <rect x="0" y="0" width="208" height="62" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+          <!-- Glow Accent -->
+          <circle cx="25" cy="31" r="17" fill="#a855f715" />
+          <text x="25" y="37" font-size="18" text-anchor="middle">👑</text>
+          
+          <!-- Badge Text -->
+          <text x="49" y="20" fill="#f0f6fc" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="11" font-weight="700">Grandmaster 52</text>
+          
+        <g transform="translate(142, 6)">
+          <rect x="0" y="0" width="56" height="15" rx="3" fill="#a855f720" stroke="#a855f750" stroke-width="0.8" />
+          <text x="28" y="10.5" fill="#a855f7" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="800" text-anchor="middle" letter-spacing="0.4">MYTHIC</text>
+        </g>
+      
+          <text x="49" y="36" fill="#8b949e" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="8.5" font-weight="400">All 52 milestones unlocked</text>
+          
+          <!-- Status pill -->
+          <g transform="translate(49, 44)">
+            <circle cx="3" cy="5" r="2.5" fill="#3fb950" />
+            <text x="10" y="8" fill="#3fb950" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="7.5" font-weight="700" letter-spacing="0.3">UNLOCKED</text>
+          </g>
+        </g>
+      
+
+  <!-- Footer -->
+  <g transform="translate(26, 1520)">
+    <text x="434" y="0" fill="#6e7681" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif" font-size="9" text-anchor="middle">
+      Advancing Molecular Biology &amp; Agentic Software Engineering &#8226; Verified Profile Metrics &#8226; Abdullah Amr Maged
+    </text>
+  </g>
+</svg>
