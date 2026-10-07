@@ -4,14 +4,20 @@
   <h2>Biotechnologist • Science Communicator • Software Developer</h2>
   <p>
     <strong>Teaching Assistant & General Coordinator for Science Communication</strong><br>
-    <em>Faculty of Science, Alamein International University (AIU)</em><br>
-    <em>Pre-Master's Researcher in Molecular Biology, Alexandria University</em>
+    <em>Faculty of Science, Alamein International University (AIU)</em>
   </p>
   <p>
-    <a href="https://github.com/scicomm-superbugs"><img src="https://img.shields.io/badge/AIU-Teaching_Assistant-104c82?style=flat-square&logo=googlescholar" alt="AIU" /></a>
-    <a href="https://github.com/scicomm-superbugs"><img src="https://img.shields.io/badge/Alexandria_University-Pre--Master's-1e3a8a?style=flat-square" alt="Alexandria University" /></a>
-    <a href="https://github.com/scicomm-superbugs"><img src="https://img.shields.io/badge/Founder-Superbugs-059669?style=flat-square" alt="Superbugs" /></a>
-    <a href="https://github.com/scicomm-superbugs"><img src="https://img.shields.io/badge/GitHub-700%2B_Contributions-2563eb?style=flat-square&logo=github" alt="GitHub" /></a>
+    <a href="https://github.com/scicomm-superbugs">
+      <img src="https://img.shields.io/badge/AIU-Teaching%20Assistant-0284c7?style=for-the-badge&logo=google-scholar&logoColor=white" alt="AIU Teaching Assistant" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/scicomm-superbugs">
+      <img src="https://img.shields.io/badge/Founder-Superbugs-059669?style=for-the-badge&logo=dna&logoColor=white" alt="Founder Superbugs" />
+    </a>
+    &nbsp;
+    <a href="https://github.com/scicomm-superbugs">
+      <img src="https://img.shields.io/badge/GitHub-746%2B%20Contributions-4f46e5?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Contributions" />
+    </a>
   </p>
 </div>
 
