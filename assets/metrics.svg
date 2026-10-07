@@ -101,7 +101,7 @@
 
     <!-- Top Left: Hero Stat (Clean Vertical Stack, Zero Overlap) -->
     <g transform="translate(20, 62)">
-      <text x="0" y="28" class="stat-hero">772+</text>
+      <text x="0" y="28" class="stat-hero">778+</text>
       <text x="0" y="46" class="stat-caption">Total Contributions</text>
       <text x="0" y="63" class="header-sub">Active across 12 Repositories</text>
     </g>
