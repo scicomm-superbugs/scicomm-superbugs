@@ -63,7 +63,7 @@
 ### 📊 Activity & Engineering Metrics
 
 <div align="center">
-  <img src="./assets/metrics.svg?v=3" width="100%" alt="GitHub Engineering & Activity Dashboard" />
+  <img src="./assets/metrics.svg?v=4" width="100%" alt="GitHub Engineering & Activity Dashboard" />
 </div>
 
 ---
