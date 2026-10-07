@@ -45,22 +45,22 @@
 
     <!-- Radar Sweep Gradient -->
     <linearGradient id="sweepGrad" x1="0%" y1="100%" x2="0%" y2="0%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0"/>
-      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#38bdf8" stop-opacity="0.9"/>
     </linearGradient>
   </defs>
 
   <style>
     .header-title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 15px; font-weight: 700; fill: #f8fafc; letter-spacing: 0.3px; }
     .header-sub { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11.5px; fill: #64748b; font-weight: 500; }
-    .stat-hero { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 32px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
+    .stat-hero { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 34px; font-weight: 800; fill: #ffffff; letter-spacing: -0.5px; }
     .stat-caption { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; font-weight: 700; fill: #94a3b8; text-transform: uppercase; letter-spacing: 0.8px; }
     .item-name { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 600; fill: #e2e8f0; }
     .item-pct { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 13px; font-weight: 700; font-variant-numeric: tabular-nums; }
     .muted-text { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; fill: #64748b; font-weight: 500; }
     .pill-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 11px; font-weight: 600; text-anchor: middle; }
     .badge-live { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 10px; font-weight: 700; fill: #10b981; letter-spacing: 0.6px; }
-    .quadrant-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9.5px; font-weight: 700; fill: #94a3b8; text-anchor: middle; text-transform: uppercase; }
+    .quadrant-label { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; font-size: 9.5px; font-weight: 600; }
   </style>
 
   <!-- Container Frame -->
@@ -99,51 +99,52 @@
     <text x="20" y="26" class="item-name" font-size="14">Contribution Breakdown</text>
     <text x="20" y="42" class="header-sub">Distributed across 4 contribution quadrants</text>
 
-    <!-- Top Left: Hero Stat -->
-    <g transform="translate(20, 56)">
-      <text x="0" y="28" class="stat-hero">776+</text><text x="96" y="15" class="stat-label">Total Contributions</text>
-      <text x="96" y="30" class="header-sub">Active across 12 Repositories</text>
+    <!-- Top Left: Hero Stat (Clean Vertical Stack, Zero Overlap) -->
+    <g transform="translate(20, 62)">
+      <text x="0" y="28" class="stat-hero">772+</text>
+      <text x="0" y="46" class="stat-caption">Total Contributions</text>
+      <text x="0" y="63" class="header-sub">Active across 12 Repositories</text>
     </g>
 
     <!-- Top Right: Visual Interactive Radar Diamond Chart -->
-    <g transform="translate(280, 50)">
-      <!-- Radar Background Circles -->
-      <circle cx="50" cy="50" r="38" fill="none" stroke="#1e293b" stroke-dasharray="3 3"/>
-      <circle cx="50" cy="50" r="24" fill="none" stroke="#1e293b"/>
+    <g transform="translate(294, 94)">
+      <!-- Radar Background Circles & Crosshair -->
+      <circle cx="0" cy="0" r="36" fill="none" stroke="#1e293b" stroke-dasharray="3 3"/>
+      <circle cx="0" cy="0" r="20" fill="none" stroke="#1e293b"/>
       
       <!-- Cross Axes -->
-      <line x1="50" y1="8" x2="50" y2="92" stroke="#1e293b" stroke-width="1"/>
-      <line x1="8" y1="50" x2="92" y2="50" stroke="#1e293b" stroke-width="1"/>
+      <line x1="0" y1="-36" x2="0" y2="36" stroke="#1e293b" stroke-width="1"/>
+      <line x1="-36" y1="0" x2="36" y2="0" stroke="#1e293b" stroke-width="1"/>
 
-      <!-- Diamond Polygon with Live Breathing Glow -->
-      <polygon points="50,24 78,50 50,78 16,50" fill="#06b6d4" fill-opacity="0.25" stroke="#38bdf8" stroke-width="1.8">
-        <animate attributeName="fill-opacity" values="0.2;0.45;0.2" dur="3s" repeatCount="indefinite"/>
+      <!-- Diamond Polygon (Reviews 9%, Issues 11%, PRs 11%, Commits 69%) -->
+      <polygon points="0,-18 22,0 0,22 -28,0" fill="#06b6d4" fill-opacity="0.22" stroke="#38bdf8" stroke-width="1.8">
+        <animate attributeName="fill-opacity" values="0.18;0.38;0.18" dur="3s" repeatCount="indefinite"/>
         <animate attributeName="stroke-width" values="1.6;2.4;1.6" dur="3s" repeatCount="indefinite"/>
       </polygon>
       
       <!-- SMIL Continuous Rotating Radar Sweep Line -->
-      <line x1="50" y1="50" x2="50" y2="12" stroke="url(#sweepGrad)" stroke-width="2" stroke-linecap="round">
-        <animateTransform attributeName="transform" type="rotate" from="0 50 50" to="360 50 50" dur="4s" repeatCount="indefinite"/>
+      <line x1="0" y1="0" x2="0" y2="-36" stroke="url(#sweepGrad)" stroke-width="2" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="4s" repeatCount="indefinite"/>
       </line>
 
-      <!-- Pulsing Radar Center & Concentric Rings -->
-      <circle cx="50" cy="50" r="4" fill="#38bdf8"/>
-      <circle cx="50" cy="50" r="14" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6">
-        <animate attributeName="r" values="10;34;10" dur="3s" repeatCount="indefinite"/>
+      <!-- Center Pulsing Anchor & Sonar Wave Ring -->
+      <circle cx="0" cy="0" r="3.5" fill="#38bdf8"/>
+      <circle cx="0" cy="0" r="10" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.6">
+        <animate attributeName="r" values="6;34;6" dur="3s" repeatCount="indefinite"/>
         <animate attributeName="opacity" values="0.8;0.05;0.8" dur="3s" repeatCount="indefinite"/>
       </circle>
 
-      <!-- Quadrant Markers -->
-      <circle cx="50" cy="24" r="3.5" fill="#f59e0b"/> <!-- Review -->
-      <circle cx="78" cy="50" r="3.5" fill="#10b981"/> <!-- Issues -->
-      <circle cx="50" cy="78" r="3.5" fill="#8b5cf6"/> <!-- PRs -->
-      <circle cx="16" cy="50" r="3.5" fill="#3b82f6"/> <!-- Commits -->
+      <!-- Quadrant Colored Nodes -->
+      <circle cx="0" cy="-18" r="3.5" fill="#f59e0b"/> <!-- Review -->
+      <circle cx="22" cy="0" r="3.5" fill="#10b981"/> <!-- Issues -->
+      <circle cx="0" cy="22" r="3.5" fill="#8b5cf6"/> <!-- PRs -->
+      <circle cx="-28" cy="0" r="3.5" fill="#3b82f6"/> <!-- Commits -->
 
-      <!-- Small Labels -->
-      <text x="50" y="6" class="quadrant-label" fill="#f59e0b">Review</text>
-      <text x="96" y="53" class="quadrant-label" fill="#10b981">Issues</text>
-      <text x="50" y="103" class="quadrant-label" fill="#8b5cf6">PRs</text>
-      <text x="4" y="53" class="quadrant-label" fill="#3b82f6">Commits</text>
+      <!-- Refined Non-Overlapping Labels with Generous Margins -->
+      <text x="0" y="-24" class="quadrant-label" fill="#f59e0b" text-anchor="middle">Review</text>
+      <text x="28" y="3.5" class="quadrant-label" fill="#10b981" text-anchor="start">Issues</text>
+      <text x="0" y="32" class="quadrant-label" fill="#8b5cf6" text-anchor="middle">PRs</text>
+      <text x="-34" y="3.5" class="quadrant-label" fill="#38bdf8" text-anchor="end">Commits</text>
     </g>
 
     <!-- Multi-Segment Distribution Bar -->
