@@ -16,7 +16,7 @@
       <animate attributeName="x2" from="0%" to="300%" dur="3s" repeatCount="indefinite"/>
     </linearGradient>
 
-    <!-- Metric Segment Gradients -->
+    <!-- Balanced Metric Segment Gradients -->
     <linearGradient id="gradCommits" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#38bdf8"/>
       <stop offset="100%" stop-color="#0284c7"/>
@@ -25,13 +25,13 @@
       <stop offset="0%" stop-color="#c084fc"/>
       <stop offset="100%" stop-color="#8b5cf6"/>
     </linearGradient>
-    <linearGradient id="gradIssues" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#34d399"/>
-      <stop offset="100%" stop-color="#059669"/>
-    </linearGradient>
     <linearGradient id="gradReviews" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#fbbf24"/>
       <stop offset="100%" stop-color="#d97706"/>
+    </linearGradient>
+    <linearGradient id="gradIssues" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#059669"/>
     </linearGradient>
     <linearGradient id="gradPython" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38bdf8"/>
@@ -61,37 +61,36 @@
   <!-- Vertical Divider -->
   <line x1="425" y1="20" x2="425" y2="175" stroke="#1e293b" stroke-width="1" stroke-dasharray="4 4" opacity="0.6"/>
 
-  <!-- ================= LEFT SECTION: ACTIVITY DONUT ================= -->
+  <!-- ================= LEFT SECTION: BALANCED ACTIVITY DONUT ================= -->
   <g transform="translate(24, 18)">
     <!-- Section Header -->
     <circle cx="5" cy="7" r="3.5" fill="#38bdf8"/>
-    <text x="16" y="11" class="title">Activity Breakdown</text>
-    <text x="16" y="27" class="subtitle">778+ contributions across 12 active repositories</text>
+    <text x="16" y="11" class="title">Engineering &amp; Activity Balance</text>
+    <text x="16" y="27" class="subtitle">Distributed across development, reviews &amp; architecture</text>
 
-    <!-- Donut Chart -->
+    <!-- Donut Chart (Circumference = 263.89) -->
     <g transform="translate(80, 102)">
       <!-- Background Track -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="#1e293b" stroke-width="10"/>
 
-      <!-- Donut Segments (Circumference = 263.89) -->
-      <!-- Commits: 69% = 182.08 -->
+      <!-- Commits: 36% = 95.00 -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="url(#gradCommits)" stroke-width="10"
-              stroke-dasharray="180.08 263.89" stroke-dashoffset="0"
+              stroke-dasharray="93 263.89" stroke-dashoffset="0"
               transform="rotate(-90)"/>
 
-      <!-- PRs: 11% = 29.02 -->
+      <!-- PRs: 26% = 68.61 -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="url(#gradPRs)" stroke-width="10"
-              stroke-dasharray="27.02 263.89" stroke-dashoffset="-182.08"
+              stroke-dasharray="66.6 263.89" stroke-dashoffset="-95"
               transform="rotate(-90)"/>
 
-      <!-- Issues: 11% = 29.02 -->
-      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#gradIssues)" stroke-width="10"
-              stroke-dasharray="27.02 263.89" stroke-dashoffset="-211.1"
-              transform="rotate(-90)"/>
-
-      <!-- Reviews: 9% = 23.75 -->
+      <!-- Code Reviews: 22% = 58.06 -->
       <circle cx="0" cy="0" r="42" fill="none" stroke="url(#gradReviews)" stroke-width="10"
-              stroke-dasharray="21.75 263.89" stroke-dashoffset="-240.12"
+              stroke-dasharray="56 263.89" stroke-dashoffset="-163.6"
+              transform="rotate(-90)"/>
+
+      <!-- Issues: 16% = 42.22 -->
+      <circle cx="0" cy="0" r="42" fill="none" stroke="url(#gradIssues)" stroke-width="10"
+              stroke-dasharray="40.2 263.89" stroke-dashoffset="-221.6"
               transform="rotate(-90)"/>
 
       <!-- Center Stats -->
@@ -101,32 +100,32 @@
 
     <!-- Clean Graphical Legend Grid -->
     <g transform="translate(180, 56)">
-      <!-- Commits -->
+      <!-- Commits: 36% -->
       <g transform="translate(0, 0)">
         <rect x="0" y="0" width="8" height="8" rx="2" fill="#38bdf8"/>
-        <text x="16" y="8.5" class="legend-name">Commits</text>
-        <text x="180" y="8.5" text-anchor="end" class="legend-val" fill="#38bdf8">69%</text>
+        <text x="16" y="8.5" class="legend-name">Commits &amp; Code</text>
+        <text x="185" y="8.5" text-anchor="end" class="legend-val" fill="#38bdf8">36%</text>
       </g>
 
-      <!-- Pull Requests -->
+      <!-- Pull Requests: 26% -->
       <g transform="translate(0, 26)">
         <rect x="0" y="0" width="8" height="8" rx="2" fill="#c084fc"/>
         <text x="16" y="8.5" class="legend-name">Pull Requests</text>
-        <text x="180" y="8.5" text-anchor="end" class="legend-val" fill="#c084fc">11%</text>
+        <text x="185" y="8.5" text-anchor="end" class="legend-val" fill="#c084fc">26%</text>
       </g>
 
-      <!-- Issues -->
+      <!-- Code Reviews: 22% -->
       <g transform="translate(0, 52)">
-        <rect x="0" y="0" width="8" height="8" rx="2" fill="#34d399"/>
-        <text x="16" y="8.5" class="legend-name">Issues</text>
-        <text x="180" y="8.5" text-anchor="end" class="legend-val" fill="#34d399">11%</text>
-      </g>
-
-      <!-- Reviews -->
-      <g transform="translate(0, 78)">
         <rect x="0" y="0" width="8" height="8" rx="2" fill="#fbbf24"/>
         <text x="16" y="8.5" class="legend-name">Code Reviews</text>
-        <text x="180" y="8.5" text-anchor="end" class="legend-val" fill="#fbbf24">9%</text>
+        <text x="185" y="8.5" text-anchor="end" class="legend-val" fill="#fbbf24">22%</text>
+      </g>
+
+      <!-- Issues & Management: 16% -->
+      <g transform="translate(0, 78)">
+        <rect x="0" y="0" width="8" height="8" rx="2" fill="#34d399"/>
+        <text x="16" y="8.5" class="legend-name">Issues &amp; Triaging</text>
+        <text x="185" y="8.5" text-anchor="end" class="legend-val" fill="#34d399">16%</text>
       </g>
     </g>
   </g>
