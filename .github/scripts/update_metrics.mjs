@@ -51,7 +51,7 @@ async function updateLiveMetrics() {
   // Update metrics.svg
   if (readFileSync("assets/metrics.svg", "utf-8")) {
     let m = readFileSync("assets/metrics.svg", "utf-8");
-    m = m.replace(/<text[^>]*class="stat-hero"[^>]*>\d+\+<\/text>/g, `<text x="0" y="28" class="stat-hero">${count}+</text>`);
+    m = m.replace(/<text[^>]*class="stat-number"[^>]*>\d+\+<\/text>/g, `<text x="0" y="4" class="stat-number" text-anchor="middle">${count}+</text>`);
     writeFileSync("assets/metrics.svg", m, "utf-8");
   }
 }
