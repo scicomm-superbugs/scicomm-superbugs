@@ -94,7 +94,7 @@
               transform="rotate(-90)"/>
 
       <!-- Center Stats -->
-      <text x="0" y="4" class="stat-number" text-anchor="middle">825+</text>
+      <text x="0" y="4" class="stat-number" text-anchor="middle">834+</text>
       <text x="0" y="18" class="stat-label" text-anchor="middle">TOTAL</text>
     </g>
 
